@@ -66,15 +66,16 @@ python main.py
 ```
 .
 ├── main.py                # Main application
-├── api_client.py          # Acunetix API client
-├── scan_processor.py      # Scan processing
-├── email_sender.py        # Email functionality
-├── config_loader.py       # Configuration
-├── models.py             # Data models
-├── helpers.py            # Utilities
+├── packages/              # Core modules
+│   ├── api_client.py      # Acunetix API client
+│   ├── scan_processor.py  # Scan processing
+│   ├── email_sender.py    # Email functionality
+│   ├── config_loader.py   # Configuration
+│   ├── models.py          # Data models
+│   └── helpers.py         # Utilities
 ├── config/
-│   └── config.ini        # Configuration
-└── reports/              # Generated reports
+│   └── config.ini         # Configuration
+└── reports/               # Generated reports
 ```
 
 ## Scheduling
