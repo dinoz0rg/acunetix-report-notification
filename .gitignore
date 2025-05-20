@@ -19,6 +19,7 @@ reports/
 *.log
 processed_scans.json
 README.new.md
+log/
 
 # IDE specific files
 .idea/
