@@ -6,8 +6,8 @@ from datetime import datetime
 from pathlib import Path
 from typing import Dict, List, Optional, Set, Any
 
-from models import ScanResult, ScanStatus, ConfigError
-from api_client import AcunetixAPI, AcunetixAPIError
+from packages.models import ScanResult, ScanStatus, ConfigError
+from packages.api_client import AcunetixAPI, AcunetixAPIError
 
 logger = logging.getLogger(__name__)
 

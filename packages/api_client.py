@@ -10,7 +10,7 @@ import requests
 from requests.adapters import HTTPAdapter
 from urllib3.util.retry import Retry
 
-from models import ScanStatus, ScanResult, AcunetixConfig
+from packages.models import ScanStatus, ScanResult, AcunetixConfig
 
 # Suppress only the InsecureRequestWarning from urllib3
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)

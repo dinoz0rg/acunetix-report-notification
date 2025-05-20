@@ -5,11 +5,11 @@ import sys
 from pathlib import Path
 from typing import Optional
 
-from config_loader import load_config, get_default_config
-from models import AppConfig, ConfigError
-from scan_processor import ScanProcessor, ScanProcessorError
-from email_sender import build_email_html, send_email
-from helpers import init_all_loggers, get_main_logger, get_error_logger
+from packages.config_loader import load_config, get_default_config
+from packages.models import AppConfig, ConfigError
+from packages.scan_processor import ScanProcessor, ScanProcessorError
+from packages.email_sender import build_email_html, send_email
+from packages.helpers import init_all_loggers, get_main_logger, get_error_logger
 
 # Initialize logging
 init_all_loggers(logging.INFO)

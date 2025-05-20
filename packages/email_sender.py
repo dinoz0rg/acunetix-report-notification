@@ -8,7 +8,7 @@ from email.mime.application import MIMEApplication
 from pathlib import Path
 from typing import List, Optional, Union
 
-from models import EmailConfig, ScanResult
+from packages.models import EmailConfig, ScanResult
 
 logger = logging.getLogger(__name__)
 

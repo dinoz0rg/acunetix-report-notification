@@ -5,7 +5,7 @@ import os
 from pathlib import Path
 from typing import Dict, Any, Optional
 
-from models import AppConfig, ConfigError
+from packages.models import AppConfig, ConfigError
 
 logger = logging.getLogger(__name__)
 
